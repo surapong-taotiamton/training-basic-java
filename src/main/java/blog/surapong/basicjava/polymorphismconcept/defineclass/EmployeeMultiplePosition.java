@@ -13,7 +13,7 @@ public class EmployeeMultiplePosition {
 
     public int managerHasProject = 0;
 
-    public int saleIncentivePerMonth = 0;
+    public double saleIncentivePerMonth = 0;
 
 
     public EmployeeMultiplePosition(String firstname, String lastname, double baseSalary, String position) {

@@ -1,0 +1,10 @@
+package blog.surapong.basicjava.polymorphismconcept.defineclass;
+
+public class NormalEmployee extends BaseEmployee {
+
+    public NormalEmployee(String firstname, String lastname, double baseSalary) {
+        super(firstname, lastname, baseSalary, "NORMAL");
+    }
+
+
+}
