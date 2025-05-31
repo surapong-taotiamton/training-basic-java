@@ -9,7 +9,6 @@ public class Example3 {
 
 
         SaleEmployee sale = new SaleEmployee("มงคล", "งามเด่น", 25000, 500);
-        sale.saleIncentivePerMonth = 500;
 
         ManagerEmployee manager = new ManagerEmployee("สมชาย", "มากมี", 30000, 5);
 
