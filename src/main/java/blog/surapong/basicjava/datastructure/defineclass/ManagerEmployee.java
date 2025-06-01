@@ -11,6 +11,6 @@ public class ManagerEmployee extends BaseEmployee {
 
     @Override
     public double calculateSalary() {
-        return this.baseSalary + (managerHasProject * 500);
+        return this.getBaseSalary() + (managerHasProject * 500);
     }
 }

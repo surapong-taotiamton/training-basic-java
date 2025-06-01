@@ -11,6 +11,6 @@ public class SaleEmployee extends BaseEmployee {
 
     @Override
     public double calculateSalary() {
-        return this.baseSalary + saleIncentivePerMonth;
+        return this.getBaseSalary() + saleIncentivePerMonth;
     }
 }
