@@ -2,10 +2,10 @@ package blog.surapong.basicjava.datastructure.defineclass;
 
 public class BaseEmployee implements CalculateCostAble {
 
-    public String firstname;
-    public String lastname;
-    public double baseSalary;
-    public String position;
+    private String firstname;
+    private String lastname;
+    private double baseSalary;
+    private String position;
 
     public BaseEmployee() {}
 
