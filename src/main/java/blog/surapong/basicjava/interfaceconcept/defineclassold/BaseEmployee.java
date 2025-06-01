@@ -1,4 +1,4 @@
-package blog.surapong.basicjava.polymorphismconcept.defineclass;
+package blog.surapong.basicjava.interfaceconcept.defineclassold;
 
 public class BaseEmployee {
 

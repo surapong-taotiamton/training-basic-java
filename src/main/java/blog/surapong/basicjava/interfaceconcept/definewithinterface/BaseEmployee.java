@@ -1,6 +1,6 @@
-package blog.surapong.basicjava.polymorphismconcept.defineclass;
+package blog.surapong.basicjava.interfaceconcept.definewithinterface;
 
-public class BaseEmployee {
+public class BaseEmployee implements CalculateCostAble {
 
     public String firstname;
     public String lastname;
@@ -25,4 +25,18 @@ public class BaseEmployee {
     }
 
 
+    //////////////////////////////////
+    // Method ที่ต้องสร้างจาก Interface
+    //////////////////////////////////
+
+
+    @Override
+    public double calculateCost() {
+        return this.calculateSalary();
+    }
+
+    @Override
+    public void printCostDescription() {
+        System.out.println(this.firstname + " " + this.lastname + " : " + this.calculateSalary());
+    }
 }

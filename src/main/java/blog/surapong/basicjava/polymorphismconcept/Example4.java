@@ -29,11 +29,8 @@ public class Example4 {
         // จะมองไม่เห็น saleIncentivePerMonth เพราะตอนนี้ manager อยู่ภายใต้ type BaseEmployee
         //System.out.println("managerHasProject is : " + managerInTypeBaseEmployee.managerHasProject);
 
-
         System.out.println("managerHasProject is : " + ((ManagerEmployee)managerInTypeBaseEmployee).managerHasProject);
 
-
-        NormalEmployee normal = new NormalEmployee("มั่งมี", "ศรีสุข", 15000);
 
     }
 
